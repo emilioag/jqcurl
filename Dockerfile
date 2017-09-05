@@ -1,3 +1,3 @@
 FROM appropriate/curl:edge
 
-RUN apk -U jq
+RUN apk -Uuv add jq
